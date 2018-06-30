@@ -8,7 +8,7 @@ public class ConsumerRun {
         context.start();
         Hello hello = (Hello) context.getBean("hello", Hello.class);
 
-        String alex = hello.sayHello("alex");
+        String alex = hello.sayHello("jade");
 
         System.out.println(alex);
 
